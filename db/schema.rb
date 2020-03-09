@@ -10,6 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+# Did a command rake db:migrate to create the schema
+
 ActiveRecord::Schema.define(version: 1) do
 
   create_table "students", force: :cascade do |t|
